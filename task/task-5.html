@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-5</title>
+
+</head>
+<body>
+    <script>   
+        const enterSekond = parseFloat(prompt('Введіть секунди', '0'));
+        const days = 86400;
+        const minutes = enterSekond / 60; 
+        const hours = enterSekond / 3600;
+        alert(`Кількість секунд в одній добі ${days}, з початку доби пройшло ${enterSekond} секунд, це ${minutes.toFixed(2)}хвилин та ${hours.toFixed(2)} годин`);
+    </script>
+</body>
+</html>

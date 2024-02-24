@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-4</title>
+</head>
+<body>
+    
+    <script>
+        const lengthCentimeters = parseFloat(prompt("Введіть довжину у сантиметрах", "0"));
+        const lengtMeters = 1 /1000 * lengthCentimeters;
+        const lengthKilometer = 1 / 100000 * lengtMeters;
+        const resultMeasurement = alert(`${lengthCentimeters} сантиметрів, це ${lengtMeters}метрів та ${lengthKilometer.toFixed(5)}кілометрів`);
+    </script>
+</body>
+</html>
